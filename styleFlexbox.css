@@ -19,7 +19,6 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -31,19 +30,56 @@ h1 {
     height: 80px;
     border-radius: 50px;
     text-align: center;
+    
 }
-
 .cor1 {
     background-color: #ED145B;
 }
 
 .cor2 {
     background-color: #63B1BC;
+
 }
 
 .cor3 {
     background-color: #EFB661;
 }
+
+.pai-desafio {
+    width: 20%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.filho-desafio{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.cor1-desafio {
+    background-color: #ED145B;
+}
+
+.cor2-desafio {
+    background-color: #63B1BC;
+    margin-left: 150px;
+}
+
+.cor3-desafio {
+    background-color: #EFB661;
+    margin-left: 75px;
+}
+
+
 
 .instrucoes {
     width: 80%;
